@@ -22,13 +22,5 @@ pipeline{
                 archiveArtifacts '**/distribution/*.zip'
             }
         }
-    }
-    
-    post{
-        always{
-            echo 'this pipeline has completed...'
-        }
-        
-    }
     
 }
