@@ -22,5 +22,5 @@ pipeline{
                 archiveArtifacts '**/distribution/*.zip'
             }
         }
-    
+    }
 }
